@@ -1,0 +1,11 @@
+**.terraform
+**terraform.tfstate*
+.terragrunt-cache
+test/vendor
+*.idea
+*.iml
+.DS_Store
+node_modules
+generated-docs
+package-lock.json
+test/Gopkg.lock
