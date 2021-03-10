@@ -1,12 +1,12 @@
 {
+  "branch": "main",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
       "@semantic-release/changelog",
       {
-        "changelogTitle": "All notable changes to this terraform will be documented in this file.",
-        "branches": ["main"]
+        "changelogTitle": "All notable changes to this terraform will be documented in this file."
       }
     ],
     "@semantic-release/git",
