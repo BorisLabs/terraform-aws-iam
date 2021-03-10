@@ -5,11 +5,11 @@
     [
       "@semantic-release/changelog",
       {
-        "changelogTitle": "All notable changes to this terraform will be documented in this file."
+        "changelogTitle": "All notable changes to this terraform will be documented in this file.",
+        "branches": ["main"]
       }
     ],
     "@semantic-release/git",
     "@semantic-release/github"
-  ],
-  "branches": ["main"]
+  ]
 }
