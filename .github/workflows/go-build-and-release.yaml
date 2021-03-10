@@ -33,9 +33,9 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         id: semantic
         with:
-          branch: master
+          branch: main
           extra_plugins: |
             @semantic-release/git
-            @semantic-release/changelog@3.0.0
+            @semantic-release/changelog@5.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
