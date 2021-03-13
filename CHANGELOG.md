@@ -1,5 +1,12 @@
 All notable changes to this terraform will be documented in this file.
 
+## [1.0.1](https://github.com/BorisLabs/terraform-aws-iam/compare/v1.0.0...v1.0.1) (2021-03-13)
+
+
+### Bug Fixes
+
+* Release ([84c73de](https://github.com/BorisLabs/terraform-aws-iam/commit/84c73de65f99d1ad5656d7337d67cf720272e716))
+
 # 1.0.0 (2021-03-10)
 
 
