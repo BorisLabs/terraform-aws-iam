@@ -83,7 +83,7 @@ variable "global_policy_description" {
 
 variable "iam_path" {
   description = "IAM Policy Path"
-  default     = ""
+  default     = "/"
 }
 
 variable "iam_instance_profile" {
